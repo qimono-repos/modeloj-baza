@@ -1,0 +1,38 @@
+namespace Core.Models;
+
+public enum  Genre
+{
+    Drama,
+    Horror,
+    Documentary,
+    Action,
+    SciFi,
+    /*
+    Action,
+    Adventure,
+    Animation,
+    Biography,
+    Comedy,
+    Crime,
+    Documentary,
+    Drama,
+    Family,
+    Fantasy,
+    FilmNoir,
+    History,
+    Horror,
+    Music,
+    Musical,
+    Mystery,
+    Romance,
+    SciFi,
+    Short,
+    Sport,
+    Superhero,
+    Thriller,
+    War,
+    Western,
+    Marbel,
+    DC,
+    */
+}
