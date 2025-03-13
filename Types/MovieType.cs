@@ -24,8 +24,8 @@ public class MovieType//: ObjectType<Movie>
     public Genre Genre { get; set; }
 
 
-    public IEnumerable<ActorType> Actors { get; set; }  
+    public required IEnumerable<ActorType> Actors { get; set; }  
 
-    public DirectorType Director { get; set; }
+    public required DirectorType Director { get; set; }
 
 }
